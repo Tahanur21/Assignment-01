@@ -6,6 +6,11 @@
 }
 
 /* shared style */
+.sectional-para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #646b7bbd;
+}
 .common-link{
     text-decoration: none;
     color:#646b7b;
@@ -46,6 +51,7 @@ nav{
 /* header area */
 
 .main-header{
+    margin-bottom: 69px;
     margin-top: 28px;
     width: 100%;
     height: 645px;
@@ -85,7 +91,7 @@ nav{
     text-align: center;
     width: 68%;
     height: 1517px;
-    margin: 130px auto;
+    margin: 11px auto;
     padding: 80px;
     background-color: #FAFAFB;
     border-radius: 53px;
@@ -142,31 +148,157 @@ nav{
 }
 .sub-section{
     text-align: center;
-    width: 68%;
+    width: 80%;
     /* height: 1517px; */
-    margin: 130px auto;
+    margin: 0px auto;
     padding: 80px;
 }
 .sub-title{
-    font-size: 45px;
+    font-size: 42px;
     font-weight: bolder;
     color:#0D1321;
     margin-bottom: 24px;
 }
 .sub-description{
-    font-size: 19px;
-    font-weight: 500;
-    color: #646b7b;
+    font-size: 17px;
+    color: #47495ac4;
 }
 .sub-video{
     width: 1158px;
     height: 554px;
     border: 1px solid #80808070;
     border-radius: 16px;
-    padding: 20px;
-    margin: 46px auto;
+    padding: 7px 0 5px 0;
+    margin: 33px auto;
 }
 .sub-youtube{
     margin: 20px auto;
     border-radius: 16px;
+}
+
+/* Card sectional area */
+
+.card-section{
+    text-align: center;
+    height: 760px;
+}
+.full-card-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 62px;
+}
+.card-contents {
+    width: 61%;
+    margin: 0 auto;
+}
+.card-title{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #0D1321;
+    margin-bottom: 20px;
+}
+.card-para{
+    font-size: 15px;
+    font-weight: 500;
+    color: #646b7bbd;
+}
+.card-items {
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 22px;
+    width: 18%;
+    margin: 0 15px 0px 12px;
+    padding: 44px 42px;
+}
+.logo-items {
+    margin: 25px 0px 25px -10px;
+}
+.js-logo {
+    margin: 27px 3px;
+}
+.h3.sub-card-title {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+}
+.card-description {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 28px 0 30px 0;
+    color: #646b7b9b;
+}
+.card-link{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #0D1321;
+}
+.card-items-1{
+    background-color: #FFF6F4;
+}
+.card-items-2{
+    background-color: #F2F6FE;
+}
+.card-items-3{
+    background-color: #FFFDF2;
+}
+
+/* Footer sectional area */
+
+.support-footer {
+    width: 80%;
+    padding: 100px 4px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 58px;
+    background-image: url('/assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffff;
+}
+.support-description{
+    font-size: 16px;
+    color: #bec0c6;
+    margin: 18px 0 42px 0;
+}
+.support-inputer {
+    width: 37%;
+    padding: 16px 35px 15px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #dadeec75;
+    background: #FFFFFF;
+}
+.input-btn {
+    padding: 16px 19px 15px 19px;
+    border-radius: 8px;
+    border: none;
+    color:#646b7b;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Main Footer sectional area */
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f982;
+    padding: 20px;
+}
+.side-footer-title {
+    margin-left: 18px;
+    color: #0D1321;
+    font-weight: 600;
+}
+.img-footer .side-footer-img {
+    margin: 0 5px 0px 8px;
 }
