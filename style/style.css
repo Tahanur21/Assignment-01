@@ -35,14 +35,16 @@
 }
 
 /* navigation area */
-
+span{
+    color:#265dde
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .logo{
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bolder;
     margin: 50px 0px 0 150px;
     color: #0D1321;
@@ -175,6 +177,10 @@ nav{
     margin: 20px auto;
     border-radius: 16px;
 }
+.sub-content-header{
+    width: 89%;
+    margin: 0 auto;
+}
 
 /* Card sectional area */
 
@@ -295,7 +301,7 @@ nav{
     padding: 20px;
 }
 .side-footer-title {
-    margin-left: 18px;
+    margin-left: 150px;
     color: #0D1321;
     font-weight: 600;
 }
