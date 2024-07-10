@@ -57,7 +57,7 @@ nav{
     margin-top: 28px;
     width: 100%;
     height: 645px;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
 }
 .header-content{
     text-align: center;
@@ -257,7 +257,7 @@ nav{
     text-align: center;
     margin: auto;
     margin-bottom: 58px;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     background-position: center;
     border-radius: 16px;
 }
