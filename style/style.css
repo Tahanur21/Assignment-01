@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+}
+
+/* shared style */
+.every-link{
+    text-decoration: none;
+    color:#0D1321
+}
+.btn-primary{
+    font-size: 18px;
+    color: rgb(13, 19, 33);
+    border-radius: 7px;
+    padding: 17px 15px 17px 19px;
+    background-color: transparent;
+    margin: 50px 158px 0px 0
+}
+
+.dark-1{
+    color: rgb(13, 19, 33);
+}
+
+/* navigation area */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 50px 0px 0 150px;
+    color: #0D1321;
+}
+
+/* header area */
+
+.main-header{
+    margin-top: 28px;
+    width: 100%;
+    height: 645px;
+    background-image: url(/assets/Hero-bg.png);
+}
+.header-content{
+    text-align: center;
+}
+.header-btn{
+    background-color: #0D1321;
+    margin-left: 150px;
+}
+.header-link{
+    color:rgb(255, 255, 255);
+    
+    font-size: 20px;
+}
+.header-img{
+    width: 274px;
+    height: 280px;
+    margin: 32px 0;
+}
+.header-title{
+    font-size: 45px;
+    margin-bottom: 36px;
+    font-weight: bold;
+}
+.header-description{
+    font-size: 20px;
+    color: #646b7b;
+    margin-top: 49px;
+}
+
+/* Main sectional area */
+
+main{
+    width: 100%;
+    height: 1393px;
+    margin-top: 40px;
+}
+.main-section{
+    text-align: center;
+    width: 946px;
+    margin: 0 auto;
+}
+.left-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: -18px -5px 19px 0px #0000000f;
+    /* width: 946px; */
+    padding: 55px;
+}
+.left-contents{
+    text-align: left;
+    margin: 0 82px 0 0;
+    width: 493px;
+}
+.sectional-para{
+    margin-bottom: 90px;
+}
+.section-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0d1321a1;
+    margin-bottom: 27px;
+}
+.section-description{
+    font-size: 16px;
+    color: #646b7b;
+}
