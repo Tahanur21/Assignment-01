@@ -6,6 +6,10 @@
 }
 
 /* shared style */
+.common-link{
+    text-decoration: none;
+    color:#646b7b;
+}
 .every-link{
     text-decoration: none;
     color:#0D1321
@@ -13,12 +17,14 @@
 .btn-primary{
     font-size: 18px;
     color: rgb(13, 19, 33);
-    border-radius: 7px;
+    border-radius: 8px;
     padding: 17px 15px 17px 19px;
     background-color: transparent;
     margin: 50px 158px 0px 0
 }
-
+.btn-primary .every-link{
+    .btn-primary
+}
 .dark-1{
     color: rgb(13, 19, 33);
 }
@@ -76,9 +82,23 @@ nav{
 /* Main sectional area */
 
 main{
-    width: 100%;
-    height: 1393px;
-    margin-top: 40px;
+    width: 68%;
+    height: 1517px;
+    margin: 130px auto;
+    padding: 80px;
+    background-color: #FAFAFB;
+    border-radius: 53px;
+}
+.sectional-header{
+    font-size: 43px;
+    font-weight: bolder;
+    color: #0D1321;
+    margin-bottom: 53px;
+}
+.sectional-para{
+    font-size: 18px;
+    font-weight: 500;
+    color: #646b7bbd;
 }
 .main-section{
     text-align: center;
@@ -90,9 +110,9 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 7px;
-    box-shadow: -18px -5px 19px 0px #0000000f;
-    /* width: 946px; */
-    padding: 55px;
+    box-shadow: -97px -29px 57px -61px #0000000f;
+    padding: 61px;
+    margin-bottom: 79px;
 }
 .left-contents{
     text-align: left;
@@ -111,4 +131,16 @@ main{
 .section-description{
     font-size: 16px;
     color: #646b7b;
+}
+.right-content{
+    margin-left: 45px;
+}
+.right-items {
+    border-radius: 7px;
+    box-shadow: 69px 16px 88px -53px #0000000f;
+}
+
+.section-link{
+    font-size: 20px;
+    font-weight: 600;
 }
