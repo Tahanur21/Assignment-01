@@ -81,7 +81,8 @@ nav{
 
 /* Main sectional area */
 
-main{
+.main-section{
+    text-align: center;
     width: 68%;
     height: 1517px;
     margin: 130px auto;
@@ -99,11 +100,6 @@ main{
     font-size: 18px;
     font-weight: 500;
     color: #646b7bbd;
-}
-.main-section{
-    text-align: center;
-    width: 946px;
-    margin: 0 auto;
 }
 .left-items{
     display: flex;
@@ -143,4 +139,34 @@ main{
 .section-link{
     font-size: 20px;
     font-weight: 600;
+}
+.sub-section{
+    text-align: center;
+    width: 68%;
+    /* height: 1517px; */
+    margin: 130px auto;
+    padding: 80px;
+}
+.sub-title{
+    font-size: 45px;
+    font-weight: bolder;
+    color:#0D1321;
+    margin-bottom: 24px;
+}
+.sub-description{
+    font-size: 19px;
+    font-weight: 500;
+    color: #646b7b;
+}
+.sub-video{
+    width: 1158px;
+    height: 554px;
+    border: 1px solid #80808070;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 46px auto;
+}
+.sub-youtube{
+    margin: 20px auto;
+    border-radius: 16px;
 }
